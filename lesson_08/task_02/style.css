@@ -3,7 +3,7 @@ div {
     background-color: bisque;
     border-color: firebrick chartreuse burlywood aqua;
     border-style: solid solid dashed dashed;
-    border-width: 20px;
+    border-width: 10px 20px;
     margin: 50px 100px;
     padding:20px;
     width: 500px;
