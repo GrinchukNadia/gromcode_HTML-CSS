@@ -1,11 +1,11 @@
 a[target="_blank"] {
     color: green;
 }
-li {
+ol, ul {
     background-color: yellow;
 }
 footer, header {
-    border: 3px dashed blue
+    border: 3px dashed blue;
 }
 h1, h2, h3, h4 {
     margin-left: 20px;
