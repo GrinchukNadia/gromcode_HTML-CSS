@@ -1,0 +1,19 @@
+body > div {
+    margin: 50px;
+}
+div {
+    border: 2px solid black;
+    padding: 50px;
+}
+.blue_rectangle {
+    background-color: blue;
+}
+.yellow_rectangle {
+    background-color: yellow;
+}
+.green_rectangle {
+    background-color: green;
+}
+.pink_rectangle {
+    background-color: pink;
+}
