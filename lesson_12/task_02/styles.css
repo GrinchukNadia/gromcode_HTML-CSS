@@ -1,12 +1,9 @@
 html {
     font-family: Verdana, sans-serif;
 }
-header {
-    width: 50%;
-    margin: auto;
-}
 h1 {
-    line-height: initial;
+    margin: auto;
+    width: 50%;
     font-size: 74px;
     text-overflow: ellipsis;
     overflow: hidden;
