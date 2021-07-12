@@ -4,12 +4,13 @@ html {
 header {
     width: 50%;
     margin: auto;
-    font-size: 74px;
 }
 h1 {
+    line-height: 148px;
+    font-size: 74px;
+    text-overflow: ellipsis;
     overflow: hidden;
     white-space: nowrap;
-    text-overflow: ellipsis;
 }
 div {
     height: 200px;
