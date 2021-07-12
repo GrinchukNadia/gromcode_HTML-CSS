@@ -1,0 +1,15 @@
+ul, ol {
+ list-style: none;
+}
+li {
+    font-size: 1.5em;
+}
+.first {
+    text-decoration: red overline;
+}
+.second {
+    text-decoration: line-through;
+}
+.third {
+    text-decoration: green underline;
+}
