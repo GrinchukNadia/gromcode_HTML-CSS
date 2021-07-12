@@ -3,11 +3,10 @@ html {
 }
 header {
     width: 50%;
-    margin: 0 auto;
-    line-height: normal;
+    margin: auto;
+    font-size: 74px;
 }
 h1 {
-    font-size: 74px;
     overflow: hidden;
     white-space: nowrap;
     text-overflow: ellipsis;
