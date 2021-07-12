@@ -5,11 +5,13 @@ li {
     font-size: 1.5em;
 }
 .first {
-    text-decoration: red overline;
+    text-decoration-line: overline;
+    text-decoration-color: red;
 }
 .second {
     text-decoration: line-through;
 }
 .third {
-    text-decoration: green underline;
+    text-decoration-line: underline;
+    text-decoration-color: green;
 }
