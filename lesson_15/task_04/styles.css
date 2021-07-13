@@ -4,6 +4,8 @@
   position: relative;
   margin: auto;
   cursor: pointer;
+  display: flex;
+  justify-content: center;
   font-size: 12px;
   font-weight: 700;
 }
