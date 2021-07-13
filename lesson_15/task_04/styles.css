@@ -21,7 +21,6 @@
     background-color: bisque;
     text-transform: uppercase;
     position: absolute;
-    margin: auto;
     opacity: 0.5;
     top: calc(50% - 25px);
     left: calc(50% - 100px);
