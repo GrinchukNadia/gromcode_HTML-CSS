@@ -1,30 +1,33 @@
 * {
-    box-sizing: border-box;
+  box-sizing: border-box;
 }
 .image-container {
-    position: relative;
-    width: fit-content;
-    display: block;
-    margin: auto;
-    cursor: pointer;
-    font-size: 12px;
-    font-weight: 700;
+  width: fit-content;
+  height: fit-content;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: auto;
+  cursor: pointer;
+  font-size: 12px;
+  font-weight: 700;
 }
 .image {
-    max-width: 100%;
+  max-width: 100%;
 }
 .image-button {
-    width: 200px;
-    height: 50px;
-    line-height: 50px;
-    text-align: center;
-    background-color: bisque;
-    text-transform: uppercase;
-    position: absolute;
-    opacity: 0.5;
-    top: calc(50% - 25px);
-    left: calc(50% - 100px);
+  width: 200px;
+  height: 50px;
+  line-height: 50px;
+  text-align: center;
+  background-color: bisque;
+  text-transform: uppercase;
+  position: absolute;
+  opacity: 0.5;
+  top: calc(50% - 25px);
+  left: calc(50% - 100px);
 }
 .image-container:hover .image-button {
-    opacity: 1;
+  opacity: 1;
 }
