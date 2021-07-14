@@ -20,9 +20,11 @@ th,
 td{
     border: 1px solid black;
 }
+tr {
+    height: 40px;
+}
 th, td {
-    line-height: 40px;
-    padding: 0 4px;
+    padding: 4px;
 }
 tbody > tr:nth-child(odd) {
     background-color: #f2f2f2;
