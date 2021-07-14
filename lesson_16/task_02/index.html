@@ -16,25 +16,32 @@
   <body>
     <form>
       <div class="form-element">
-        <input type="text" name="lastName" value="Emerson" />
+        <label for="last-name-input">Last Name</label>
+        <input id="last-name-input" type="text" name="lastName" value="Emerson" readonly />
       </div>
 
       <div class="form-element">
-        <input type="number" name="age" value="17" />
+        <label>Age
+          <input type="number" name="age" value="17" required min="3" max="10"/>
+        </label>
       </div>
 
       <div class="form-element">
-          <input id="agree-tearm-and-condition" type="checkbox" name="agree" />Accept terms and conditions
+          <input id="agree-tearm-and-condition" type="checkbox" name="agree" disabled />
+          <label for="agree-tearm-and-condition">Accept terms and conditions</label>
       </div>
 
       <div class="choose-gender form-element">
-        <input id="gender-male" type="radio" name="gender" checked />Male
-        <input id="gender-female" type="radio" name="gender" />Female
-        <input id="gender-secret" type="radio" name="gender" />Secret
+        <input id="gender-male" type="radio" name="gender" checked />
+        <label for="gender-male">Male</label>
+        <input id="gender-female" type="radio" name="gender" />
+        <label for="gender-female">Female</label>
+        <input id="gender-secret" type="radio" name="gender" />
+        <label for="gender-secret">Secret</label>
       </div>
 
       <div class="form-element">
-          <textarea name="description" placeholder="Write description..." ></textarea>
+          <textarea name="description" placeholder="Write description..." maxlength="10"></textarea>
       </div>
 
       <div class="form-element">
