@@ -1,0 +1,27 @@
+button {
+    width: 200px;
+    height: 50px;
+    line-height: 50px;
+    background-color: coral;
+    color: white;
+    border-radius: 4px;
+    text-transform: uppercase;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 700;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    margin: 64px;
+}
+svg {
+    width: 32px;
+    height: 32px;
+    fill: white;
+    vertical-align: middle;
+}
+button:hover {
+    color: darkcyan
+}
+button:hover > svg {
+    fill: green;
+}
