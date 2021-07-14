@@ -1,6 +1,9 @@
 .form-personal-information {
     margin: 32px;
 }
-.form-control, button {
+.form-control {
     margin: 8px;
+}
+button {
+    margin: 0 8px 8px 8px;
 }
