@@ -20,7 +20,7 @@ th,
 td{
     border: 1px solid black;
 }
-td, th {
+tr {
     line-height: 40px;
 }
 th, td {
