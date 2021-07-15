@@ -12,6 +12,9 @@
     font-size: 16px;
     font-family:'Courier New', Courier, monospace;
     text-transform: uppercase;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
 }
 .spinner-text {
     animation: blinking 2s linear alternate infinite;
@@ -24,7 +27,6 @@
     margin-bottom: 8px;
     border-radius: 50%;
     animation: spining 2s infinite linear;
-    /* transform: rotate(45deg); */
 }
 
 @keyframes blinking {
