@@ -1,0 +1,32 @@
+@import "variables.scss";
+@import "breakpoints.scss";
+
+* {
+    box-sizing: border-box;
+}
+.container {
+    width: fit-content;
+    margin: 0 auto;
+    
+    @include landscape { 
+        display: flex;
+    }
+}
+.square {
+    width: $square-size;
+    height: $square-size;
+    margin: 8px;
+    
+    @include for-small {
+        background-color: $color-orange; 
+    }
+    @include for-medium {
+        background-color: $color-violet; 
+    }
+    @include for-large {
+        background-color: $color-gold; 
+    }
+    @include for-extra-large {
+        background-color: $color-pink; 
+    }
+}
