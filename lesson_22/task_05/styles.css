@@ -77,20 +77,6 @@ body {
     padding: 0.5em;
     width: 20%;
 }
-@media screen and (max-width: 600px) {
-    .main {
-        flex-direction: column;
-    }
-    .main-information {
-        flex-direction: column;
-        width: 100%;
-    }
-    .navigation,
-    .section,
-    .news {
-        width: 100%;
-    }
-}
 @media screen and (max-width: 900px) {
     .main {
         flex-direction: column;
@@ -104,6 +90,16 @@ body {
     .section {
         width: 80%;
     }
+    .news {
+        width: 100%;
+    }
+}
+@media screen and (max-width: 600px) {
+   .main-information {
+        flex-direction: column;
+    }
+    .navigation,
+    .section,
     .news {
         width: 100%;
     }
