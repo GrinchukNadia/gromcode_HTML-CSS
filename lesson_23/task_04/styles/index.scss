@@ -1,0 +1,10 @@
+@import "variables.scss";
+
+* {
+    box-sizing: border-box;
+}
+html {
+    font-family: Verdana, sans-serif;
+}
+
+@import "layout.scss";

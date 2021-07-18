@@ -1,0 +1,63 @@
+@import "variables.scss";
+@import "mixins.scss";
+.main {
+
+    @include for-large {
+        display: flex;
+    }
+
+    &__item {
+        height: $blocks-height;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+        &_text {
+            text-transform: lowercase;
+            padding: 8px;
+            background-color: $item-layout-color;
+            border-radius: $items-radius;
+        }
+    }
+
+    &__products {
+
+        @include for-medium {
+            display: flex;
+            width: 100%;
+        }
+
+        @include for-large {
+            flex-direction: row;
+            width: (100% / 3) * 2;
+        }
+
+        &_navigation {
+            background-color: $color-navigation;
+
+            @include for-medium {
+                width: 50%;
+            }
+        }
+
+        &_product_list {
+            background-color: $color-product-list;
+
+            @include for-medium {
+                width: 50%;
+            }
+        }
+    }
+
+    &__news {
+        background-color: $color-news;
+
+        @include for-medium {
+            width: 100%;
+        }
+
+        @include for-large {
+            width: (100% / 3);
+        }
+    }
+}
